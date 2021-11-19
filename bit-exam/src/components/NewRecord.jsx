@@ -50,7 +50,7 @@ function NewRecord({create, showNewRecordModal, setShowNewRecordModal, busy, set
             top: window.scrollY
         }}>
             <div className="main-modal-form">
-                <h2>Edit item</h2>               
+                <h2>New record</h2>               
                 <label>Km/Day*</label><input type="number" value={inputs.day_ride} onChange={(e) => formControl(e, 'day_ride')} />
                 <label>Last use time</label><input type="date" value={inputs.last_use_time} onChange={(e) => formControl(e, 'last_use_time')} />
             </div>

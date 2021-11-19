@@ -56,7 +56,7 @@ function Modal({edit, confirmDelete, modalItem, showModal, setShowModal, busy, s
             top: window.scrollY
         }}>
             <div className="main-modal-form">
-                <h2>Edit item</h2>
+                <h2>Edit record</h2>
                 <label>Registration code*</label><input style={{background:'#bcd8db'}} type="text" value={inputs.registration_code}  readOnly />
                 <label>Km/Day*</label><input type="number" value={inputs.day_ride} onChange={(e) => formControl(e, 'day_ride')} />
                 <label>Total ride kilometers*</label><input style={{background:'#bcd8db'}} type="number" value={inputs.total_ride_kilometers}  readOnly />
